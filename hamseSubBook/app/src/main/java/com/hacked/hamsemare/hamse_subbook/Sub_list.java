@@ -9,12 +9,6 @@ import java.util.Collection;
  */
 
 
-/*Citations-
-Used Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://github.com/abramhindle/student-picker
-https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
-*/
-
 
 /*
 Purpose of the Sub list is to handle adding, removing and updating the list of subscriptions using listeners. Our class implements the interface
