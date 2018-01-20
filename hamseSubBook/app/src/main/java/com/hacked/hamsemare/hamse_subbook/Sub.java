@@ -8,11 +8,6 @@ import java.util.Date;
  * Created by Hamsemare on 2018-01-15.
  */
 
-/*Citations-
-Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
-*/
-
 
 /*
 Purpose of the Sub Class is to make a subscription which has a name, date, monthly charge, and a comment. We also want to be able to
