@@ -17,11 +17,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 
-/*Citations-
-Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
-*/
-
 
 /*
 Purpose of the MainActivity Class is to display the main layout, which has a list of Subscriptions type Sub, and  "add subscription" button.
