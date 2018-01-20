@@ -23,7 +23,7 @@ return type String
 
 
 public class Sub implements Serializable {
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -7556743916038416941L;
 
     // Set Attributes to private because of encapsulation
     private String name;
