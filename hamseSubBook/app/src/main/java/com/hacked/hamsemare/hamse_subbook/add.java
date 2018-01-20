@@ -13,11 +13,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-/*Citations-
-Used Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://github.com/abramhindle/student-picker
-https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
-*/
+
 
 
 /*
