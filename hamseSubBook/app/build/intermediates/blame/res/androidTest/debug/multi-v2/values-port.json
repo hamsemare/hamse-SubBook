@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Hamsemare/AndroidStudioProjects/Assignments/Assignment1/hamseSubBook/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
-            "map": [
-                {
-                    "source": "/Users/Hamsemare/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e6e07b89184d942fd9bc4def00d291d3/res/values-port/values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/Hamsemare/AndroidStudioProjects/Assignments/Assignment1/assignment1/hamseSubBook/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
