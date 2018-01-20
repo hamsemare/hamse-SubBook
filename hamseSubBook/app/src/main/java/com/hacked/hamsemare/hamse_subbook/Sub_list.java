@@ -24,7 +24,7 @@ listener methods which include adding a listener, removing a listener, updating 
 */
 
 
-public class Sub_list implements Serializable {
+public class Sub_list implements Serializable{
     private static final long serialVersionUID = 6673446047991058932L;
 
     //Allows the following attribute to be accessed outside the class, sub_list and listeners_list
@@ -70,11 +70,6 @@ public class Sub_list implements Serializable {
     // Add Listener
     public void add_listener(Listener listener) {
         get_listeners().add(listener);
-    }
-
-    //Remove listener
-    public void remove_listener(Listener listener) {
-        get_listeners().remove(listener);
     }
 
     //Notify listener

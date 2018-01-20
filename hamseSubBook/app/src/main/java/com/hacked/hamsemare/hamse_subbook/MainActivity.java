@@ -35,9 +35,6 @@ edit a subscription. We also have a Text field which displays the total monthly 
 
 public class MainActivity extends AppCompatActivity {
 
-    //Private array list that contains strings
-    private ArrayList<String> data = new ArrayList<String>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

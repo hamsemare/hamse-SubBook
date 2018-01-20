@@ -27,7 +27,7 @@ public class Sub_Controller {
     //Private attribute
     private static Sub_list subs = null;
 
-    //Constructor
+
     //Retrieves the list of Subscriptions to be viewed
     static public Sub_list get() {
 
