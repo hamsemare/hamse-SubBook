@@ -8,8 +8,7 @@ import java.util.Date;
  */
 
 /*Citations-
-Used Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://github.com/abramhindle/student-picker
+Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide
 https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
 */
 
