@@ -1,0 +1,4 @@
+#Fri Jan 19 20:49:43 MST 2018
+base.0=/Users/Hamsemare/AndroidStudioProjects/Assignments/Assignment1/assignment1/hamseSubBook/app/build/intermediates/transforms/dexMerger/debug/78
+path.0=classes.dex
+renamed.0=classes.dex
