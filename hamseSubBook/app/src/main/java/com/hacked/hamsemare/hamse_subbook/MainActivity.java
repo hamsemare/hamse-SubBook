@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
         //DELETE or EDIT From the list of Subscriptions
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
