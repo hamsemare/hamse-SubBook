@@ -3,7 +3,7 @@ Cmput 301 Assignment 1 Submission
 
 Citations-
 
-Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide
+Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide.
 
 DATE - January 15,2018
 
