@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/edit_charge"
+        android:id="@+id/chargeAmount"
         android:layout_width="87dp"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
@@ -19,11 +19,11 @@
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/add_btn"
+        app:layout_constraintBottom_toTopOf="@+id/addBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/total_monthly_charge"
-        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:layout_constraintStart_toEndOf="@+id/charge"
+        app:layout_constraintTop_toBottomOf="@+id/list"
         app:layout_constraintVertical_bias="0.529" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintBottom_toTopOf="@+id/list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,24 +48,24 @@
         tools:text="SUBSCRIPTION BOOK" />
 
     <Button
-        android:id="@+id/add_btn"
+        android:id="@+id/addBtn"
         android:layout_width="321dp"
         android:layout_height="64dp"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:onClick="add_btn"
+        android:onClick="addBtn"
         android:text="ADD SUBSCRIPTION"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/total_monthly_charge" />
+        app:layout_constraintTop_toBottomOf="@+id/charge" />
 
     <TextView
-        android:id="@+id/total_monthly_charge"
+        android:id="@+id/charge"
         android:layout_width="264dp"
         android:layout_height="33dp"
         android:layout_marginBottom="8dp"
@@ -75,13 +75,13 @@
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/add_btn"
+        app:layout_constraintBottom_toTopOf="@+id/addBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:layout_constraintTop_toBottomOf="@+id/list"
         app:layout_constraintVertical_bias="0.214" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/list"
         android:layout_width="356dp"
         android:layout_height="230dp"
         android:layout_marginBottom="16dp"
@@ -90,7 +90,7 @@
         android:layout_marginTop="16dp"
         android:scrollbars="vertical"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/edit_charge"
+        app:layout_constraintBottom_toTopOf="@+id/chargeAmount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />

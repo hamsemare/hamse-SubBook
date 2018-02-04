@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -52,7 +51,7 @@ public class Add extends AppCompatActivity {
 
         //Initially the replace button is hidden and the submit button is visible
         Button replaceBtn= findViewById(R.id.replace);
-        Button submitBtn=findViewById(R.id.add_btn);
+        Button submitBtn=findViewById(R.id.addBtn);
 
         //Set the fields to the correct input if subscription is not null
         // (If something is passed by the intent)
@@ -86,7 +85,7 @@ public class Add extends AppCompatActivity {
         date.setText(pdate);
 
         //Monthly charge
-        EditText charge= findViewById(R.id.total_monthly_charge);
+        EditText charge= findViewById(R.id.charge);
         charge.setText(pcharge);
 
         //Comments
@@ -101,7 +100,7 @@ public class Add extends AppCompatActivity {
      * @return true for the data the user entered is valid
      * and false if the data the user entered is not in the correct format
      */
-    public boolean isvalid(){
+    public boolean isValid(){
         boolean valid=true;
         //Name
         EditText name= findViewById(R.id.name);
@@ -112,7 +111,7 @@ public class Add extends AppCompatActivity {
         String sdate= date.getText().toString();
 
         //Monthly charge
-        EditText charge= findViewById(R.id.total_monthly_charge);
+        EditText charge= findViewById(R.id.charge);
         String scharge= charge.getText().toString();
 
 
@@ -161,7 +160,7 @@ public class Add extends AppCompatActivity {
         String sdate= date.getText().toString();
 
         //Monthly charge
-        EditText charge= findViewById(R.id.total_monthly_charge);
+        EditText charge= findViewById(R.id.charge);
         String scharge= charge.getText().toString();
 
         //Convert the string to a Double if the string is not empty else set it to 0
@@ -177,7 +176,7 @@ public class Add extends AppCompatActivity {
         EditText comment=findViewById(R.id.comment);
         String scomment= comment.getText().toString();
 
-        if( isvalid() && dcharge>=0 ){
+        if( isValid() && dcharge>=0 ){
 
             //Pass the data needed to add as a entry to the subscriptions list, and add them to the controller
             SubController subscriptions = new SubController();
@@ -214,7 +213,7 @@ public class Add extends AppCompatActivity {
         String sdate= date.getText().toString();
 
         //Monthly charge
-        EditText charge= findViewById(R.id.total_monthly_charge);
+        EditText charge= findViewById(R.id.charge);
         String scharge= charge.getText().toString();
 
         //Convert the string to a Double if the string is not empty else set it to 0
@@ -230,7 +229,7 @@ public class Add extends AppCompatActivity {
         EditText comment=findViewById(R.id.comment);
         String scomment= comment.getText().toString();
 
-        if(isvalid() && dcharge>=0){
+        if(isValid() && dcharge>=0){
 
             //Pass the data needed to add as a entry to the subscriptions list, and add them to the controller
             //Remove the old entry

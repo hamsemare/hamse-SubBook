@@ -3,11 +3,12 @@ package com.hacked.hamsemare.assignment;
 import java.io.IOException;
 
 
-
 /*Citations-
 Used and watched Abrams Hindle's Student picker tutorial on youtube as reference and a guide
-https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
+
 DATE - January 15,2018
+From Whom - Abram Hindle
+URL- https://www.youtube.com/watch?v=k9ZNbsc0Qgo&t=7s
 */
 
 /**

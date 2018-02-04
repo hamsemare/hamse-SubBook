@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Show the list of subscriptions
         //Make the list of subs and the adapter constant so it can not be reassigned
-        ListView list = findViewById(R.id.listView);
+        ListView list = findViewById(R.id.list);
         Collection<Subscription> subs = SubController.get().get();
 
         final ArrayList<Subscription> listOfSubs = new ArrayList<Subscription>(subs);
@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         list.setAdapter(adapter);
 
         //Set the chargeAmount to the sum of the charges in the arraylist
-        TextView edit_charge= findViewById(R.id.edit_charge);
-        edit_charge.setText(String.format("$%.2f", total_money(listOfSubs)));
+        TextView editCharge= findViewById(R.id.chargeAmount);
+        editCharge.setText(String.format("$%.2f", totalMoney(listOfSubs)));
 
 
         //Retrieves and updates the Subscription list
@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 adapter.notifyDataSetChanged();
 
                 //Set the Total Monthly Charge when update occurs
-                TextView edit_charge= findViewById(R.id.edit_charge);
-                edit_charge.setText(String.format("$%.2f", total_money(listOfSubs)));
+                TextView editCharge= findViewById(R.id.chargeAmount);
+                editCharge.setText(String.format("$%.2f", totalMoney(listOfSubs)));
             }
         });
 
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
      * @param subs is the list of subscriptions
      * @return the total charge of all the subscriptions added together
      */
-    public Double total_money(ArrayList<Subscription> subs){
+    public Double totalMoney(ArrayList<Subscription> subs){
         Double echarge=0.0;
         for(int i=0;i<subs.size(); i++){
             Double ch=subs.get(i).getC();
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param view is the next activity
      */
-    public void add_btn(View view) {
+    public void addBtn(View view) {
         Intent intent = new Intent(this, Add.class);
         startActivity(intent);
     }
